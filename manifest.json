@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Last.fm Search",
+  "version": "1.0",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Last.fm",
+      "search_url": "https://www.last.fm/search?q={searchTerms}",
+      "keyword": "@lastfm",
+      "favicon_url": "https://www.last.fm/static/images/favicon.702b239b6194.ico",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
